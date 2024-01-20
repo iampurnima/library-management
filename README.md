@@ -1,26 +1,14 @@
 # Library Management Project
 ### To Do List:
 
-#### Purnima Flask:
-- /getAllBooks
-- /createBook
-- /getBookByID
-- /updateBook
-- /deleteBook
-
-- /getAllMembers
-- /createMembers
-- getMemberById
-- updateMember
-- /deleteMember
-
-- /getAllTransaction
-- /createTransaction
-- /getTransactionById
-- /updateTransaction
-- /deleteTransaction
-
-#### Saroj Frontend React:
-- Login
-- Dashboard Admin
-- Member Dashboard
+## Low level Documentation:
+Backend:
+- Flask
+- Postgress, adaptable.io
+- Host api in render
+- Book
+    - id, title, authorName, genre, aisle, ISBN, numberOfBooks
+- Member
+    - id, firstName, lastName, dob, memberSince, fee, memberExpiry
+- Transaction
+    - id, bookName, bookID, memberName, dueDate
