@@ -1,16 +1,12 @@
 class Book:
-    def __init__(self,id,title,authorName,genre,aisle,ISBN,numberofBooks):
+    def __init__(self,id,title,authorName,publishedDate):
         self.id = id
         self.title = title
         self.authorName = authorName 
-        self.genre = genre
-        self.aisle = aisle
-        self. ISBN = ISBN
-        self.numberofBooks = numberofBooks
+        self.publishedDate = publishedDate
+        print(f"\n writer '{self.authorName} wrote a book named '{self.title}' and id is{self.id} in 2034")
         
-        
-    def get_books(self):
-        return     
+    
         
         
 class member:
